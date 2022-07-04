@@ -23,6 +23,7 @@ import org.osgi.service.component.annotations.Component;
 		      "javax.portlet.init-param.view-template=/guestbook/view.jsp",
 		      "javax.portlet.resource-bundle=content.Language",
 		      "javax.portlet.security-role-ref=power-user,user",
+		      "javax.portlet.name=" + GuestbookPortletKeys.GUESTBOOK,
 		      "javax.portlet.supports.mime-type=text/html"
 	},
 	service = Portlet.class
